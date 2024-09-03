@@ -1,0 +1,16 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "#Description  Casa de Busqueda is a full stack e-commerce application focused on helping users search, buy, sell, and rent properties. The applications offers a dynamic property listing, user authentication, and a persistent in the favorites folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

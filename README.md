@@ -6,4 +6,5 @@ Casa de Busqueda is a full stack e-commerce application focused on helping users
 Setup Instructions 
 1. Clone the responsitory 
 ..bash 
-git clone 
+git clone https://github.com/jessmdeleon/capstone-realEstate.git
+
