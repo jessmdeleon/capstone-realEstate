@@ -185,5 +185,25 @@ const properties = [
         baths: 3,
         sqft: 2000,
         img: "../assets/img/buyLuxury.jpg"
-    }
+    },
+
+    {
+        title: 'COVA Home Realty',
+        img: '../assets/img/apt1.png',
+        price: '$710.68',
+        location: 'Hawaii',
+        beds: 3,
+        baths: 1.5,
+        sqft: 1439
+      },
+
+      {
+        title: 'Exit Realty',
+        img: '../assets/img/apt2.png',
+        price: '$630.44',
+        location: 'Illinois',
+        beds: 3,
+        baths: 2,
+        sqft: 1630
+      },
 ];

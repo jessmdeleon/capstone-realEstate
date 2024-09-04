@@ -2,14 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2023 codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -1467,10 +1459,6 @@ body {
   margin: 4px 0;
 }
 
-
-
-
-
 /* General Form Styles */
 .form-section {
   padding: 40px 0;
@@ -1530,4 +1518,22 @@ body {
     gap: 12px;
     height: 48px;
     padding-inline: 24px;
+}
+
+/* Update the font size for large headings */
+.headline-large {
+  font-size: 2rem; /* You can adjust this to a smaller value */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* For smaller screens (responsive design) */
+@media (max-width: 768px) {
+  .headline-large {
+      font-size: 1.5rem; /* Adjust for mobile devices */
+  }
+}
+
+.icon-btn.fav-btn.active {
+  color: red; /* This will turn the heart red */
 }
