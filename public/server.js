@@ -2,8 +2,10 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const port = 3000;
+const cors = require("cors");
 
 // Middleware to parse incoming JSON
+aap.use(cors({'https://busquedadecasa.netlify.app'}));
 app.use(express.json());
 
 // Serve static files from the "public" directory
